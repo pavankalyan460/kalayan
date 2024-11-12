@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Object PDF Example</title>
+  </head>
+  <body>
+    <h1>Object PDF Example</h1>
+    <object data="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"type="application/pdf"width="500"height="600"
+    Embedded PDFs.
+    <a
+        href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+        target="_blank"
+        >View PDF</a
+      >
+    </object>
+  </body>
+</html>
