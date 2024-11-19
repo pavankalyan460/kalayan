@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-classes for Buttons</title>
+  <style>
+    /* General button style */
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 2px solid #007BFF;
+      background-color: #ffffff;
+      color: #007BFF;
+      cursor: pointer;
+      margin: 5px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+
+    /* :hover pseudo-class */
+    button:hover {
+      background-color: #007BFF;
+      color: #ffffff;
+    }
+
+    /* :focus pseudo-class */
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 5px #007BFF;
+    }
+
+    /* :active pseudo-class */
+    button:active {
+      background-color: #0056b3;
+      color: #ffffff;
+      transform: scale(0.98);
+    }
+
+    /* :nth-child() pseudo-class for styling specific buttons */
+    button:nth-child(odd) {
+      border-color: #28a745;
+      color: #28a745;
+    }
+
+    button:nth-child(even) {
+      border-color: #dc3545;
+      color: #dc3545;
+    }
+
+    /* :visited pseudo-class (usually applies to links, added for reference) */
+    a:visited {
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <button>Button 1</button>
+  <button>Button 2</button>
+  <button>Button 3</button>
+  <button>Button 4</button>
+
+  <!-- Example of visited pseudo-class -->
+  <a href="https://example.com" target="_blank">Visit Example.com</a>
+</body>
+</html>
